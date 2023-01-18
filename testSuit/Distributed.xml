@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite   parallel="tests"  name="ParellelExecution">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.societyManagment.expensses.testscript.createSearchAndDeleteExpenssesTest"/>
+      <class name="com.SocietyManagementSystem.Activities.testscript.createSearchAndDeleteActivitiesTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.societyManagment.accounts.testscript.createSearchAndDeleteStudentTest"/>
+      <class name="com.societyManagment.accounts.testscript.createSearchAndDeleteAdminTest"/>
+    </classes>
+  </test> 
+</suite>

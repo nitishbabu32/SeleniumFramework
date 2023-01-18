@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [ParellelExecution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.SocietyManagementSystem.Activities.testscript.createSearchAndDeleteActivitiesTest">
+        <methods>
+          <include name="createActivites"/>
+          <include name="tearDownDb"/>
+          <include name="logoutFromApp"/>
+          <include name="searchActivites"/>
+          <include name="tearDownApplication"/>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="connectToDb"/>
+        </methods>
+      </class> <!-- com.SocietyManagementSystem.Activities.testscript.createSearchAndDeleteActivitiesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ParellelExecution] -->

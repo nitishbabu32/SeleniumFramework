@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [PreservedOrderDemo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.societymanagement.genrics.ListenersImplimentationForExtentReport"/>
+  </listeners>
+  <test thread-count="10" name="Test(failed)">
+    <classes>
+      <class name="com.societyManagment.accounts.testscript.createSearchAndDeleteStudentTest">
+        <methods>
+          <include name="searchStudent"/>
+          <include name="tearDownDb"/>
+          <include name="deleteStudent"/>
+          <include name="logoutFromApp"/>
+          <include name="tearDownApplication"/>
+          <include name="createStudent"/>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="connectToDb"/>
+        </methods>
+      </class> <!-- com.societyManagment.accounts.testscript.createSearchAndDeleteStudentTest -->
+      <class name="com.societyManagment.accounts.testscript.createSearchAndDeleteAdminTest">
+        <methods>
+          <include name="deleteAdmin"/>
+          <include name="tearDownDb"/>
+          <include name="logoutFromApp"/>
+          <include name="printAllAdmin"/>
+          <include name="searchAdmin"/>
+          <include name="tearDownApplication"/>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="createAdministrator"/>
+          <include name="connectToDb"/>
+        </methods>
+      </class> <!-- com.societyManagment.accounts.testscript.createSearchAndDeleteAdminTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PreservedOrderDemo] -->
