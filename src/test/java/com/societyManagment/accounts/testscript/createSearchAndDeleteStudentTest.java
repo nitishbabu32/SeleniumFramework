@@ -15,7 +15,7 @@ import com.societymanagement.pom.LoginPage;
 import com.societymanagement.pom.StudentPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-//@Listeners(com.societymanagement.genrics.ListenersImplimentationForExtentReport.class)
+@Listeners(com.societymanagement.genrics.LIsteners.class)
 public class createSearchAndDeleteStudentTest extends BaseClass {
 	@Test
 	public void createStudent() throws IOException, InterruptedException {

@@ -19,7 +19,7 @@ private WebElement expenssespage ;
 @FindBy(xpath="//a[.=' Transaction']")
 private WebElement transactionPage;
 
-@FindBy(xpath="//a[.=' Options']")
+@FindBy(xpath="//a[text()=' Options']")
 private WebElement optionPage;
 // intialization
 

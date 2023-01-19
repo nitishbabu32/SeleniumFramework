@@ -22,7 +22,7 @@ import com.societymanagement.pom.LoginPage;
 import com.societymanagement.pom.OptionsPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-//@Listeners(com.societymanagement.genrics.ListenersImplimentationForExtentReport.class)
+@Listeners(com.societymanagement.genrics.LIsteners.class)
 public class createSearchAndDeleteAdminTest extends BaseClass{
 	@Test
 	public void createAdministrator() throws Throwable {

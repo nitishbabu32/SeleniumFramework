@@ -19,9 +19,9 @@ import com.societymanagement.pom.HomePage;
 import com.societymanagement.pom.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-//@Listeners(com.societymanagement.genrics.ListenersImplimentationForExtentReport.class)
+@Listeners(com.societymanagement.genrics.LIsteners.class)
 public class createSearchAndDeleteActivitiesTest extends BaseClass{
-	@Test(groups="Smoke")
+	@Test(groups={"Regression","Smoke"})
 	public void createActivites() throws IOException {
 		String titles = elib.readDataFromExcel("createActivites", 0, 1);
 		String desc = elib.readDataFromExcel("createActivites", 1, 1);

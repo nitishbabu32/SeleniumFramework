@@ -16,7 +16,7 @@ import com.societymanagement.pom.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-//@Listeners(com.societymanagement.genrics.LIsteners.class)
+@Listeners(com.societymanagement.genrics.LIsteners.class)
 public class createSearchAndDeleteExpenssesTest extends BaseClass {
 	@Test
 public void createExpensses() throws IOException {

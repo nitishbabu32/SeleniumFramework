@@ -76,7 +76,7 @@ public class BaseClass {
 		LoginPage lp=new LoginPage(driver);
 		lp.setLogin(flib.commonData("username"), flib.commonData("password"));
 	}
-	@AfterMethod(alwaysRun = true)
+	@AfterMethod
 	public void logoutFromApp() {
 		Reporter.log("logout",true);
 		OptionsPage op=new OptionsPage(driver);
