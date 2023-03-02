@@ -43,6 +43,7 @@ public class BaseClass {
 	public void connectToDb() throws SQLException {
 		Reporter.log("Connecting to Data Base", true);
 		dlib.connectToDB("projects");
+		
 	}
 	//@Parameters("Browser")
 	@BeforeClass(alwaysRun = true)
