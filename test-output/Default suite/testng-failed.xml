@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.societyManagment.expensses.testscript.createSearchAndDeleteExpenssesTest">
+      <class name="practice_package.createProjectUsingApiAndVerifyUsingGui">
         <methods>
-          <include name="tearDownDb"/>
-          <include name="createExpensses"/>
-          <include name="logoutFromApp"/>
-          <include name="tearDownApplication"/>
-          <include name="loginToApp"/>
-          <include name="launchBrowser"/>
-          <include name="connectToDb"/>
+          <include name="createProject" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.societyManagment.expensses.testscript.createSearchAndDeleteExpenssesTest -->
+      </class> <!-- practice_package.createProjectUsingApiAndVerifyUsingGui -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

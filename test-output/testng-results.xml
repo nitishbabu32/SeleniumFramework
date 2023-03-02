@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-20T16:33:53 IST" name="Default suite" finished-at="2023-01-20T16:33:53 IST" duration-ms="564">
+  <suite started-at="2023-03-02T15:56:14 IST" name="Default suite" finished-at="2023-03-02T15:56:21 IST" duration-ms="7488">
     <groups>
     </groups>
-    <test started-at="2023-01-20T16:33:53 IST" name="Default test" finished-at="2023-01-20T16:33:53 IST" duration-ms="564">
-      <class name="practice_package.dataprovider">
-        <test-method signature="useData(java.util.HashMap)[pri:0, instance:practice_package.dataprovider@2ed2d9cb]" started-at="2023-01-20T16:33:53 IST" name="useData" data-provider="getData" finished-at="2023-01-20T16:33:53 IST" duration-ms="11" status="PASS">
+    <test started-at="2023-03-02T15:56:14 IST" name="Default test" finished-at="2023-03-02T15:56:21 IST" duration-ms="7488">
+      <class name="practice_package.createProjectUsingApiVerifyUsingJDBC">
+        <test-method signature="createProject(org.testng.ITestContext)[pri:1, instance:practice_package.createProjectUsingApiVerifyUsingJDBC@ffaa6af]" started-at="2023-03-02T15:56:14 IST" name="createProject" finished-at="2023-03-02T15:56:20 IST" duration-ms="5890" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+                <![CDATA[org.testng.TestRunner@f1da57d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- useData -->
-        <test-method signature="useData(java.util.HashMap)[pri:0, instance:practice_package.dataprovider@2ed2d9cb]" started-at="2023-01-20T16:33:53 IST" name="useData" data-provider="getData" finished-at="2023-01-20T16:33:53 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- createProject -->
+        <test-method signature="VerifyProject(org.testng.ITestContext)[pri:2, instance:practice_package.createProjectUsingApiVerifyUsingJDBC@ffaa6af]" started-at="2023-03-02T15:56:20 IST" name="VerifyProject" finished-at="2023-03-02T15:56:21 IST" duration-ms="1503" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+                <![CDATA[org.testng.TestRunner@f1da57d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- useData -->
-        <test-method signature="useData(java.util.HashMap)[pri:0, instance:practice_package.dataprovider@2ed2d9cb]" started-at="2023-01-20T16:33:53 IST" name="useData" data-provider="getData" finished-at="2023-01-20T16:33:53 IST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Iamking@000, product=Campus Sutra, email=nitishbabu4@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- useData -->
-      </class> <!-- practice_package.dataprovider -->
+        </test-method> <!-- VerifyProject -->
+      </class> <!-- practice_package.createProjectUsingApiVerifyUsingJDBC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
